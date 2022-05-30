@@ -17,7 +17,7 @@ body{
     margin-right: 150px;
 }
 .espacio{
-    height: 100px;
+    height: 150px;
 }
 .img:hover{
     transform: scale(1.04);
@@ -30,7 +30,7 @@ body{
 }
 .espacio div {
     text-align: center;
-    width: 400px;
+    width: 800px;
     margin: 0 auto;
 }
 /*.espacio i {
@@ -38,10 +38,10 @@ body{
     margin-top: 14px;
     margin-right: 60px;
 }*/
-.espacio h2 {
+.espacio h1 {
     font-family: 'Acme', sans-serif;
    /* float: left; */
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .linksP{
     height: 50px;
@@ -119,3 +119,29 @@ body{
 .produ{
     margin-top: 30px;
 }
+
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h1::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgb(211, 163, 61);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h1 {
+    position: relative;
+    font-size: 80px;
+  }
