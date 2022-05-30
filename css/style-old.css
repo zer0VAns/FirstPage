@@ -1,0 +1,202 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #66c1bf;
+}
+
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#cafe-buy {
+    margin-top: 120px;
+}
+
+.nav-bar {
+    height: 120px;
+}
+
+nav {
+    height: 120px;
+}
+
+.img img {
+    max-width: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+    position: fixed;
+}
+
+.img div {
+    line-height: normal;
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    left: 6%;
+    top: 2rem;
+    margin-top: 0.5rem;
+}
+
+.nav {
+    width: 800px;
+    left: 50%;
+    position: fixed;
+    top: 3rem;
+}
+
+.nav ul li {
+    margin: 0 auto;
+    margin-top: 2rem;
+    display: inline;
+    padding-left: 2rem;
+    padding-right: 3.4rem;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#cafe-buy {
+    height: 490px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/Vs6F7Bx.jpg);
+}
+
+.coffee {
+    font-size: 60px;
+    color: white;
+    padding-top: 0.1px;
+}
+
+.text2 {
+    padding-right: 550px;
+}
+
+.text3 {
+    color: #66c1bf;
+    padding-right: 195px;
+
+}
+
+.buy-coffee {
+    text-align: center;
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+.button-started {
+    text-align: center;
+    display: flex;
+    border: none;
+    background-color: #2a2a2a;
+    ;
+    max-width: 380px;
+    width: 100%;
+    height: 80px;
+}
+
+.buy {
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 1.6rem;
+    color: white;
+}
+
+h3 {
+    margin-top: 50px;
+}
+
+.clients {
+    height: 400px;
+    margin-top: 50px;
+
+}
+
+.a {
+    text-align: center;
+    font-size: 40px;
+}
+
+.b {
+    margin-top: 100px;
+}
+
+.c {
+    text-align: center;
+    margin: 0 auto;
+    width: 1200px;
+    color: white;
+}
+
+footer {
+    background-color: #383636;
+}
+
+.footer img {
+    width: 50px;
+    height: 75px;
+    margin-left: 50px;
+}
+
+.services {
+    margin-top: 120px;
+    text-align: center;
+    height: 700px;
+    background-color: white;
+}
+.services1{
+    background-color: #66c1bf;
+    height: 200px;
+}
+.services1 h2 {
+    padding-top: 60px;
+    font-size: 60px;
+    color: white;
+}
+
+.products{
+    margin-top: 120px;
+    height: 808px;
+}
+.products h2 {
+    text-align: center;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+}
+.products div {
+    background-color: white;
+}
+.products div img {
+    width: 100px;
+    height: 100px;
+}
+.how-it-works{
+    margin-top: 120px;
+    height: 700px;
+}
+.how-it-works h2 {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.how-it-works div{
+    margin-top: 30px;
+}
+.how-it-works div p{
+    text-align: center;
+}
