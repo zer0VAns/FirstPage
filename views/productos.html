@@ -11,6 +11,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,26 +25,23 @@
         integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e600fad4a1.js" crossorigin="anonymous"></script>
-
-    <header>
-      <nav class="navbar navbar-dark bg-dark navbar-expand-lg h-100">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Coffee Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-              <!--          <a class="nav-link" href="#">Caracteristicas</a> -->
-              <a class="nav-link" href="./productos.html" target="_blank">Productos</a>
-              <a class="nav-link" href="./services.html" target="_blank">Servicios</a>
-              <a class="nav-link" href="./how_it_works.html" target="_blank">Como trabajamos</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+    
+    <header class="header">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../img/Copia de Coffee shop caffetteria logo - Hecho con PosterMyWall.png" alt="logo">
+        </a>
+      </div>
+      <div class="a">
+        <ul>
+          <li><a href="./gallery.html">GALERIA</a></li>
+          <li><a href="./how_it_works.html" style="color: #ff9e3c;">COMO TRABAJAMOS</a></li>
+          <li><a href="./services.html">SERVICIOS</a></li>
+          <li><a href="./productos.html" style="color: #ff9e3c;">PRODUCTOS</a></li>
+          <li><a href="../index.html">INICIO</a></li>
+        </ul>
+      </div>
+    </header>
   
           <main class="container">
             <div class="row">
@@ -114,7 +112,7 @@
           width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </section>
-    
+      <section class="footerS">
       <footer class="bg-dark text-center text-white">
         <div class="container p-4 pb-0">
           <!--
@@ -278,7 +276,7 @@
         </div>
     
       </footer>
-    
+    </section>
 </body>
 
 </html>
