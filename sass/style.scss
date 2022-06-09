@@ -1,0 +1,13 @@
+@import "./nesting.scss";
+@import "./variables.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: $color-principal;
+}
+h1{
+    color: $color-letra;
+}
