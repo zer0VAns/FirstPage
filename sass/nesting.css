@@ -1,0 +1,39 @@
+.header li {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.header a {
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.header img {
+  width: 92px;
+  float: left;
+}
+
+.espacio div {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.espacio h1 {
+  font-family: 'Acme', sans-serif;
+  margin-top: 30px;
+}
+
+.visitanos h3 {
+  color: black;
+  margin-top: 50px;
+}
+
+.visitanos iframe {
+  margin-top: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=nesting.css.map */
