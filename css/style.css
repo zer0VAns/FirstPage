@@ -13,9 +13,10 @@ body{
     font-family: 'Acme', sans-serif;
 }
 .header {
+    display: flex;
     padding: 0;
     height: 100px;
-    direction: rtl;
+    justify-content: flex-end;
 }
 
 .a {
@@ -24,6 +25,7 @@ body{
 
 .header li {
     display: inline-block;
+    margin-top: 15px;
 }
 .header a {
     margin: 0 auto;
@@ -256,6 +258,9 @@ h1::before {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.color-nav-bar a{
+    color: #ff9e3c !important;
+}
 @media(max-width:1312px) {
     .img{
         width: 450px;
@@ -361,11 +366,50 @@ h1::before {
         padding-bottom: 20px;
     }
 }
-@media(max-width:676px) {
+@media(max-width:780px){
+    .img{
+        width: 300px;
+        cursor: pointer;
+    }
+    .img1{
+        margin-left: 5%;
+    }
+    .img2{
+        margin-right: 5%;
+    }
+    .imagenes{
+        height: 150px;
+    }
+    .linksP{
+        height: 50px;
+    }
+    #clasico {
+        float: left;
+        margin-top: 1%;
+        margin-left: 16%;
+        color:black;
+        text-decoration: underline;
+    }
+    #americano {
+        float: right;
+        margin-top: 1%;
+        margin-right: 14%;
+        color: black;
+        text-decoration: underline;
+    }
+    #clasico:hover {
+        transform: scale(1.04);
+    }
+    #americano:hover {
+        transform: scale(1.04);
+    }
+}
+@media(max-width:694px) {
     .header{
+        display: block;
         height: 400px;
         margin-top: 0;
-    }
+        }
     .header{
         background-color: #474646;
 
@@ -390,7 +434,7 @@ h1::before {
     }
     
     .header img {
-        margin-right: 30px;
+        margin-right: 2px;
         width: 100px;
         float: none;
     }
