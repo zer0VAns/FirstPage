@@ -297,10 +297,7 @@ h1::before {
     }
     #americano:hover {
         transform: scale(1.04);
-    }
-    .hw1{
-   
-    }      
+    }  
 }
 @media(max-width:1000px) {
     .img{
