@@ -2,7 +2,6 @@
   display: inline-block;
   margin-top: 15px;
 }
-
 .header a {
   margin: 0 auto;
   color: white;
@@ -10,7 +9,6 @@
   display: block;
   padding: 8px;
 }
-
 .header img {
   width: 92px;
   float: left;
@@ -21,17 +19,15 @@
   width: 800px;
   margin: 0 auto;
 }
-
 .espacio h1 {
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   margin-top: 30px;
 }
 
 .visitanos h3 {
-  color: black;
+  color: rgb(0, 0, 0);
   margin-top: 50px;
 }
-
 .visitanos iframe {
   margin-top: 20px;
   text-align: center;
@@ -41,21 +37,14 @@ h1 {
   position: relative;
   font-size: 80px;
 }
-
 h1::before {
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  transform: scaleX(0);
+  transform-origin: bottom right;
 }
-
 h1:hover::before {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-  -webkit-transform-origin: bottom left;
-          transform-origin: bottom left;
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
-
 h1::before {
   content: " ";
   display: block;
@@ -65,12 +54,9 @@ h1::before {
   bottom: 0;
   left: 0;
   inset: 0 0 0 0;
-  background: #d3a33d;
+  background: rgb(211, 163, 61);
   z-index: -1;
-  -webkit-transition: -webkit-transform .3s ease;
-  transition: -webkit-transform .3s ease;
-  transition: transform .3s ease;
-  transition: transform .3s ease, -webkit-transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
 * {
@@ -79,30 +65,26 @@ h1::before {
 }
 
 body {
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   background-color: #ff9022;
 }
 
 .body2 {
   background-color: #ff9022;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
 }
 
 h1 {
-  color: #272727;
+  color: rgb(39, 39, 39);
 }
 
 .header {
   background-color: #474646;
-  font-family: 'Acme', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  font-family: "Acme", sans-serif;
   padding: 0;
   height: 100px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .a {
@@ -132,8 +114,7 @@ h1 {
 }
 
 .img:hover {
-  -webkit-transform: scale(1.04);
-          transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 .imagenes {
@@ -144,7 +125,7 @@ h1 {
   margin-top: 0px;
 }
 
-#clasico {
+#clasico, #americano {
   float: left;
   margin-top: 10px;
   margin-left: 17%;
@@ -154,15 +135,14 @@ h1 {
 
 #americano {
   float: right;
-  margin-top: 10px;
+  /*   margin-top: map-get($estilos, 10mT);*/
   margin-right: 17%;
-  color: black;
-  text-decoration: underline;
+  /*color: black;*/
+  /*text-decoration: map-get($estilos, under);*/
 }
 
 #clasico:hover, #americano:hover {
-  -webkit-transform: scale(1.04);
-          transform: scale(1.04);
+  transform: scale(1.04);
 }
 
 .linksP {
@@ -200,7 +180,7 @@ h1 {
   .linksP {
     height: 50px;
   }
-  #clasico {
+  #clasico, #americano {
     float: left;
     margin-top: 1%;
     margin-left: 16%;
@@ -215,11 +195,9 @@ h1 {
     text-decoration: underline;
   }
   #clasico:hover, #americano:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    transform: scale(1.04);
   }
 }
-
 @media (max-width: 1000px) {
   .espacio {
     width: 100%;
@@ -246,7 +224,7 @@ h1 {
   .linksP {
     height: 50px;
   }
-  #clasico {
+  #clasico, #americano {
     float: left;
     margin-top: 1%;
     margin-left: 16%;
@@ -261,15 +239,13 @@ h1 {
     text-decoration: underline;
   }
   #clasico:hover, #americano:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    transform: scale(1.04);
   }
   .hw1 iframe {
     width: 650px;
     height: 400px;
   }
 }
-
 @media (max-width: 780px) {
   .espacio {
     width: 100%;
@@ -296,7 +272,7 @@ h1 {
   .linksP {
     height: 50px;
   }
-  #clasico {
+  #clasico, #americano {
     float: left;
     margin-top: 1%;
     margin-left: 16%;
@@ -311,11 +287,9 @@ h1 {
     text-decoration: underline;
   }
   #clasico:hover, #americano:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    transform: scale(1.04);
   }
 }
-
 @media (max-width: 694px) {
   .header {
     display: block;
@@ -374,7 +348,7 @@ h1 {
   .linksP {
     height: 50px;
   }
-  #clasico {
+  #clasico, #americano {
     float: left;
     margin-top: 0px;
     margin-left: 8%;
@@ -389,15 +363,13 @@ h1 {
     text-decoration: underline;
   }
   #clasico:hover, #americano:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    transform: scale(1.04);
   }
   .hw1 iframe {
     width: 500px;
     height: 250px;
   }
 }
-
 @media (max-width: 524px) {
   .img {
     width: 200px;
@@ -415,7 +387,7 @@ h1 {
   .linksP {
     height: 50px;
   }
-  #clasico {
+  #clasico, #americano {
     float: left;
     margin-top: 0px;
     margin-left: 8%;
@@ -430,8 +402,7 @@ h1 {
     text-decoration: underline;
   }
   #clasico:hover, #americano:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    transform: scale(1.04);
   }
   .visitanos {
     height: 500px;
@@ -444,7 +415,6 @@ h1 {
     height: 230px;
   }
 }
-
 @media (max-width: 420px) {
   .img {
     width: 150px;
@@ -464,7 +434,7 @@ h1 {
   .linksP {
     height: 50px;
   }
-  #clasico {
+  #clasico, #americano {
     float: left;
     margin-top: 0px;
     margin-left: 2%;
@@ -481,8 +451,7 @@ h1 {
     font-size: 20px;
   }
   #clasico:hover, #americano:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
+    transform: scale(1.04);
   }
   .hw1 iframe {
     width: 340px;
@@ -497,4 +466,5 @@ h1 {
     height: 200px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */
