@@ -277,385 +277,337 @@ h1 {
   background-image: url('https://picsum.photos/id/160/900/900.jpg');
 }
 
-@media (max-width: 1312px) {
-  .img {
-    width: 450px;
-    cursor: pointer;
+@media(max-width:1312px) {
+  .img{
+      width: 450px;
+      cursor: pointer;
   }
-
-  .img1 {
-    margin-left: 5%;
+  .img1{
+      margin-left: 5%;
   }
-
-  .img2 {
-    margin-right: 5%;
+  .img2{
+      margin-right: 5%;
   }
-
-  .imagenes {
-    height: 250px;
+  .imagenes{
+      height: 250px;
   }
-
-  .linksP {
-    height: 50px;
+  .linksP{
+      height: 50px;
   }
-
   #clasico {
-    float: left;
-    margin-top: 1%;
-    margin-left: 16%;
-    color: black;
-    text-decoration: underline;
+      float: left;
+      margin-top: 1%;
+      margin-left: 16%;
+      color:black;
+      text-decoration: underline;
   }
-
   #americano {
-    float: right;
-    margin-top: 1%;
-    margin-right: 14%;
-    color: black;
-    text-decoration: underline;
+      float: right;
+      margin-top: 1%;
+      margin-right: 14%;
+      color: black;
+      text-decoration: underline;
   }
-
-  #clasico:hover,
+  #clasico:hover {
+      transform: scale(1.04);
+  }
   #americano:hover {
-    transform: scale(1.04);
+      transform: scale(1.04);
+  }  
+}
+@media(max-width:1000px) {
+  .img{
+      width: 350px;
+      cursor: pointer;
+  }
+  .img1{
+      margin-left: 5%;
+  }
+  .img2{
+      margin-right: 5%;
+  }
+  .imagenes{
+      height: 200px;
+  }
+  .linksP{
+      height: 50px;
+  }
+  #clasico {
+      float: left;
+      margin-top: 1%;
+      margin-left: 16%;
+      color:black;
+      text-decoration: underline;
+  }
+  #americano {
+      float: right;
+      margin-top: 1%;
+      margin-right: 14%;
+      color: black;
+      text-decoration: underline;
+  }
+  #clasico:hover {
+      transform: scale(1.04);
+  }
+  #americano:hover {
+      transform: scale(1.04);
+  }
+  .hw1 iframe{
+      width: 650px;
+      height: 400px;
   }
 }
-
-@media (max-width: 1000px) {
-  .espacio {
-    width: 100%;
+@media(max-width:878px){
+  .services{
+      position: relative;
+      margin-top: 0px;
+      text-align: center;
+      height: 1000px;
+      background-color: #9e9797;
   }
-
-  .espacio h1 {
-    font-size: map-get($estilos, tFuente);
+  .services1{
+      background-color: #757070;
+      height:150px;
   }
-
-  .espacio div {
-    width: 100%;
+  .services1 h2 {
+      padding-top: 50px;
+      font-size: 40px;
+      color: white;
   }
-
-  .img {
-    width: 350px;
-    cursor: pointer;
-  }
-
-  .img1 {
-    margin-left: 5%;
-  }
-
-  .img2 {
-    margin-right: 5%;
-  }
-
-  .imagenes {
-    height: 200px;
-  }
-
-  .linksP {
-    height: 50px;
-  }
-
-  #clasico {
-    float: left;
-    margin-top: 1%;
-    margin-left: 16%;
-    color: black;
-    text-decoration: underline;
-  }
-
-  #americano {
-    float: right;
-    margin-top: 1%;
-    margin-right: 14%;
-    color: black;
-    text-decoration: underline;
-  }
-
-  #clasico:hover,
-  #americano:hover {
-    transform: scale(1.04);
-  }
-
-  .hw1 iframe {
-    width: 650px;
-    height: 400px;
+  .services img{
+      padding-top: 20px;
+      padding-bottom: 20px;
   }
 }
-
-@media (max-width: 780px) {
-  .espacio {
-    width: 100%;
+@media(max-width:780px){
+  .img{
+      width: 300px;
+      cursor: pointer;
   }
-
-  .espacio h1 {
-    font-size: 60px;
+  .img1{
+      margin-left: 5%;
   }
-
-  .espacio div {
-    width: 100%;
+  .img2{
+      margin-right: 5%;
   }
-
-  .img {
-    width: 300px;
-    cursor: pointer;
+  .imagenes{
+      height: 150px;
   }
-
-  .img1 {
-    margin-left: 5%;
+  .linksP{
+      height: 50px;
   }
-
-  .img2 {
-    margin-right: 5%;
-  }
-
-  .imagenes {
-    height: 150px;
-  }
-
-  .linksP {
-    height: 50px;
-  }
-
   #clasico {
-    float: left;
-    margin-top: 1%;
-    margin-left: 16%;
-    color: black;
-    text-decoration: underline;
+      float: left;
+      margin-top: 1%;
+      margin-left: 16%;
+      color:black;
+      text-decoration: underline;
   }
-
   #americano {
-    float: right;
-    margin-top: 1%;
-    margin-right: 14%;
-    color: black;
-    text-decoration: underline;
+      float: right;
+      margin-top: 1%;
+      margin-right: 14%;
+      color: black;
+      text-decoration: underline;
   }
-
-  #clasico:hover,
+  #clasico:hover {
+      transform: scale(1.04);
+  }
   #americano:hover {
-    transform: scale(1.04);
+      transform: scale(1.04);
   }
 }
+@media(max-width:694px) {
+  .header{
+      display: block;
+      height: 400px;
+      margin-top: 0;
+      }
+  .header{
+      background-color: #474646;
 
-@media (max-width: 694px) {
-  .header {
-    display: block;
-    height: 400px;
-    margin-top: 0;
-    background-color: #474646;
   }
-
   .a {
-    padding: 18px;
-  }
+      padding: 18px;
 
-  .header {
-    li {
+  }
+  .header li {
       display: inline;
       float: none;
       text-align: center;
-    }
-
-    a {
+  }
+  
+  .header a {
       margin: 0 auto;
       color: white;
       text-decoration: none;
       display: block;
       padding: 13px;
       direction: ltr;
-    }
-
-    img {
+  }
+  
+  .header img {
       margin-right: 2px;
       width: 100px;
       float: none;
-    }
   }
-
+  
   .logo {
-    text-align: center;
+      text-align: center;
   }
-
-  .espacio {
-    height: 100px;
-
-    h1 {
+  .espacio{
+      height: 100px;
+  }
+  .espacio h1{
       font-size: 45px;
-    }
-
-    div {
+  }
+  .espacio div {
       text-align: center;
       width: 100%;
       margin: 0 auto;
-    }
   }
-
-  .img {
-    width: 250px;
-    cursor: pointer;
+  .img{
+      width: 250px;
+      cursor: pointer;
   }
-
-  .img1 {
-    margin-left: 2%;
+  .img1{
+      margin-left: 2%;
   }
-
-  .img2 {
-    margin-right: 2%;
+  .img2{
+      margin-right: 2%;
   }
-
-  .imagenes {
-    height: 150px;
+  .imagenes{
+      height: 150px;
   }
-
-  .linksP {
-    height: 50px;
+  .linksP{
+      height: 50px;
   }
-
   #clasico {
-    float: left;
-    margin-top: 0px;
-    margin-left: 8%;
-    color: black;
-    text-decoration: underline;
+      float: left;
+      margin-top: 0px;
+      margin-left: 8%;
+      color:black;
+      text-decoration: underline;
   }
-
   #americano {
-    float: right;
-    margin-top: 0px;
-    margin-right: 8%;
-    color: black;
-    text-decoration: underline;
+      float: right;
+      margin-top: 0px;
+      margin-right: 8%;
+      color: black;
+      text-decoration: underline;
   }
-
-  #clasico:hover,
+  #clasico:hover {
+      transform: scale(1.04);
+  }
   #americano:hover {
-    transform: scale(1.04);
+      transform: scale(1.04);
   }
-
-  .hw1 iframe {
-    width: 500px;
-    height: 250px;
+  .hw1 iframe{
+      width: 500px;
+      height: 250px;
   }
 }
-
-@media (max-width: 524px) {
-  .img {
-    width: 200px;
-    cursor: pointer;
+@media(max-width:524px) {
+  .img{
+      width: 200px;
+      cursor: pointer;
   }
-
-  .img1 {
-    margin-left: 2%;
+  .img1{
+      margin-left: 2%;
   }
-
-  .img2 {
-    margin-right: 2%;
+  .img2{
+      margin-right: 2%;
   }
-
-  .imagenes {
-    height: 150px;
+  .imagenes{
+      height: 150px;
   }
-
-  .linksP {
-    height: 50px;
+  .linksP{
+      height: 50px;
   }
-
   #clasico {
-    float: left;
-    margin-top: 0px;
-    margin-left: 8%;
-    color: black;
-    text-decoration: underline;
+      float: left;
+      margin-top: 0px;
+      margin-left: 8%;
+      color:black;
+      text-decoration: underline;
   }
-
   #americano {
-    float: right;
-    margin-top: 0px;
-    margin-right: 8%;
-    color: black;
-    text-decoration: underline;
+      float: right;
+      margin-top: 0px;
+      margin-right: 8%;
+      color: black;
+      text-decoration: underline;
   }
-
-  #clasico:hover,
+  #clasico:hover {
+      transform: scale(1.04);
+  }
   #americano:hover {
-    transform: scale(1.04);
+      transform: scale(1.04);
   }
-
-  .visitanos {
-    height: 500px;
-
-    iframe {
+  .visitanos{
+      height: 500px;
+  }
+  .visitanos iframe{
       width: 400px;
-    }
   }
-
-  .hw1 iframe {
-    width: 430px;
-    height: 230px;
+  .hw1 iframe{
+      width: 430px;
+      height: 230px;
   }
 }
 
-@media (max-width: 420px) {
-  .img {
-    width: 150px;
+@media(max-width: 420px){
+  .img{
+      width: 150px;
   }
-
-  .espacio h1 {
-    font-size: 35px;
+  .espacio h1{
+      font-size: 35px;
   }
-
-  .img1 {
-    margin-left: 1%;
+  .img1{
+      margin-left: 1%;
   }
-
-  .img2 {
-    margin-right: 1%;
+  .img2{
+      margin-right: 1%;
   }
-
-  .imagenes {
-    height: 100px;
+  .imagenes{
+      height: 100px;
   }
-
-  .linksP {
-    height: 50px;
+  .linksP{
+      height: 50px;
   }
-
   #clasico {
-    float: left;
-    margin-top: 0px;
-    margin-left: 2%;
-    color: black;
-    text-decoration: underline;
-    font-size: 20px;
+      float: left;
+      margin-top: 0px;
+      margin-left: 2%;
+      color:black;
+      text-decoration: underline;
+      font-size: 20px;
   }
-
   #americano {
-    float: right;
-    margin-top: 0px;
-    margin-right: 2%;
-    color: black;
-    text-decoration: underline;
-    font-size: 20px;
+      float: right;
+      margin-top: 0px;
+      margin-right: 2%;
+      color: black;
+      text-decoration: underline;
+      font-size: 20px;
   }
-
-  #clasico:hover,
+  #clasico:hover {
+      transform: scale(1.04);
+  }
   #americano:hover {
-    transform: scale(1.04);
+      transform: scale(1.04);
   }
-
-  .hw1 iframe {
-    width: 340px;
-    height: 190px;
+  .hw1 iframe{
+      width: 340px;
+      height: 190px;
   }
-
-  .visitanos {
-    iframe {
+  .visitanos iframe{
       margin-top: 20px;
       width: 350px;
-      height: 200px;
-    }
-
-    height: 300px;
+      height: 190px;
   }
+  .visitanos {
+      height: 300px;
+  }
+  
 }

@@ -370,21 +370,14 @@ h1 {
     color: black;
     text-decoration: underline;
   }
-  #clasico:hover,
-#americano:hover {
+  #clasico:hover, #americano:hover {
+    transform: scale(1.04);
+  }
+  #americano:hover {
     transform: scale(1.04);
   }
 }
 @media (max-width: 1000px) {
-  .espacio {
-    width: 100%;
-  }
-  .espacio h1 {
-    font-size: 60px;
-  }
-  .espacio div {
-    width: 100%;
-  }
   .img {
     width: 350px;
     cursor: pointer;
@@ -415,8 +408,10 @@ h1 {
     color: black;
     text-decoration: underline;
   }
-  #clasico:hover,
-#americano:hover {
+  #clasico:hover, #americano:hover {
+    transform: scale(1.04);
+  }
+  #americano:hover {
     transform: scale(1.04);
   }
   .hw1 iframe {
@@ -424,16 +419,29 @@ h1 {
     height: 400px;
   }
 }
+@media (max-width: 878px) {
+  .services {
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    height: 1000px;
+    background-color: #9e9797;
+  }
+  .services1 {
+    background-color: #757070;
+    height: 150px;
+  }
+  .services1 h2 {
+    padding-top: 50px;
+    font-size: 40px;
+    color: white;
+  }
+  .services img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 @media (max-width: 780px) {
-  .espacio {
-    width: 100%;
-  }
-  .espacio h1 {
-    font-size: 60px;
-  }
-  .espacio div {
-    width: 100%;
-  }
   .img {
     width: 300px;
     cursor: pointer;
@@ -464,8 +472,10 @@ h1 {
     color: black;
     text-decoration: underline;
   }
-  #clasico:hover,
-#americano:hover {
+  #clasico:hover, #americano:hover {
+    transform: scale(1.04);
+  }
+  #americano:hover {
     transform: scale(1.04);
   }
 }
@@ -474,6 +484,8 @@ h1 {
     display: block;
     height: 400px;
     margin-top: 0;
+  }
+  .header {
     background-color: #474646;
   }
   .a {
@@ -541,8 +553,10 @@ h1 {
     color: black;
     text-decoration: underline;
   }
-  #clasico:hover,
-#americano:hover {
+  #clasico:hover, #americano:hover {
+    transform: scale(1.04);
+  }
+  #americano:hover {
     transform: scale(1.04);
   }
   .hw1 iframe {
@@ -581,8 +595,10 @@ h1 {
     color: black;
     text-decoration: underline;
   }
-  #clasico:hover,
-#americano:hover {
+  #clasico:hover, #americano:hover {
+    transform: scale(1.04);
+  }
+  #americano:hover {
     transform: scale(1.04);
   }
   .visitanos {
@@ -631,21 +647,23 @@ h1 {
     text-decoration: underline;
     font-size: 20px;
   }
-  #clasico:hover,
-#americano:hover {
+  #clasico:hover, #americano:hover {
+    transform: scale(1.04);
+  }
+  #americano:hover {
     transform: scale(1.04);
   }
   .hw1 iframe {
     width: 340px;
     height: 190px;
   }
-  .visitanos {
-    height: 300px;
-  }
   .visitanos iframe {
     margin-top: 20px;
     width: 350px;
-    height: 200px;
+    height: 190px;
+  }
+  .visitanos {
+    height: 300px;
   }
 }
 
