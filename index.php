@@ -22,13 +22,13 @@
 
   <header class="header">
     <div class="logo">
-      <a href="./index.html">
+      <a href="./index.php">
         <img src="./img/Copia de Coffee shop caffetteria logo - Hecho con PosterMyWall.png" alt="logo">
       </a>
     </div>
     <div class="a ms-auto">
       <ul>
-        <li><a href="./index.html">INICIO</a></li>
+        <li><a href="./index.php">INICIO</a></li>
         <li class="color-nav-bar"><a href="./views/productos.html">PRODUCTOS</a></li>
         <li><a href="./views/services.html">SERVICIOS</a></li>
         <li class="color-nav-bar"><a href="./views/how_it_works.html">COMO TRABAJAMOS</a></li>
