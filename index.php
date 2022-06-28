@@ -179,7 +179,7 @@
         </div>
       </section>
 
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <div class="text-center p-3 copy">
         © 2022 Copyright:
         <a class="text-white" href="./index.html" target="_blank">coffeeshop.com</a>
       </div>
